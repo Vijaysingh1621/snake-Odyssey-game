@@ -181,6 +181,7 @@ export default function SnakeOdyssey() {
     setScore(0)
     setGameOver(false)
     setGameActive(true)
+    document.body.style.overflow = "hidden";
   }
 
   // Restart game
