@@ -253,8 +253,8 @@ export default function SnakeOdyssey() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-black text-white overflow-hidden p-4">
       {/* Audio elements */}
-      <audio ref={eatSoundRef} src="/anime-wow-sound-effect.mp3" preload="auto"></audio>
-      <audio ref={gameOverSoundRef} src="/sochna-pdta-hai-re-hindustani-bhau.mp3" preload="auto"></audio>
+      <audio ref={eatSoundRef} src="/bone-crack.mp3" preload="auto"></audio>
+      <audio ref={gameOverSoundRef} src="/spongebob-fail.mp3" preload="auto"></audio>
       <audio ref={backgroundMusicRef} src="/retro-game-music-230227.mp3" preload="auto"></audio>
 
       {/* Header */}
